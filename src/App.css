@@ -1,0 +1,183 @@
+.Contenedor-general {
+  background-color: rgb(249, 249, 249);
+}
+
+.barra-superior {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b396b;
+  color: white;
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  z-index: 1000;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.logo-itc {
+  display: flex;
+  align-items: center;
+}
+
+.logo-itc img {
+  width: 50px;
+  height: auto;
+  margin-right: 10px;
+}
+
+.logo-itc h1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.faq-container {
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  color: black;
+  font-family: sans-serif;
+}
+
+/* Contenedor principal */
+.Container-seccions {
+  display: flex;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 100px;
+}
+
+.seccion-izquierda {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+  padding: 0px;
+  margin-top: 10%;
+}
+
+.img-estudiante {
+  width: 180px;
+  height: auto;
+}
+
+/* Sección del medio */
+.seccion-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 45%;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.seccion-media h2 {
+  margin-bottom: 20px;
+  margin-left: 50px;
+  margin-top: 80px;
+}
+
+/* Estilo para el carrusel */
+.botones {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  width: 100%;
+  padding: 20px;
+  margin-left: 0;
+}
+
+/* Estilo para cada botón */
+.botones button {
+  scroll-snap-align: center;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  background-color: #ffffff;
+  color: #1b396b;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.botones button:hover {
+  background-color: #25a3c9;
+  color: #ffffff;
+}
+
+.botones button img.icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 20px;
+}
+
+.botones a {
+  text-decoration: none;
+}
+
+.botones::-webkit-scrollbar {
+  height: 10px;
+}
+
+.botones::-webkit-scrollbar-thumb {
+  background-color: #1b396b;
+  border-radius: 10px;
+}
+
+/* Sección derecha donde está el logo */
+.seccion-derecha {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 10px;
+}
+
+.seccion-derecha img {
+  width: 300px;
+  height: auto;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.navegacion {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.navegacion button {
+  background-color: #1b396b;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 20px;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.navegacion button:hover {
+  background-color: #25a3c9;
+}
